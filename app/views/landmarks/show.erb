@@ -1,3 +1,11 @@
+<h1>THIS IS A SINGLE LANDMARK'S SHOW PAGE. THIS SHOW PAGE IS FOR...</h1>
+<body>
+
+</body>
+
+<h3><%=@landmark.name%></h3>
+<h3><%=@landmark.year_completed.to_s %></h3>
+
 <table>
   <tr>
     <th>Name</th>
@@ -5,6 +13,6 @@
   </tr>
   <tr>
     <td><%= @landmark.name %></td>
-    <td><%= @landmark.year_completed %></td>
+    <td><%= @landmark.year_completed.to_s %></td>
   </tr>
 <table>

@@ -1,0 +1,8 @@
+<h1>THIS IS A SINGLE FIGURE'S SHOW PAGE. THIS SHOW PAGE IS FOR...</h1>
+<body>
+<h3><%=@figure.name%></h3>
+
+<% @figure.landmarks.each do |landmark|%>
+<h3><%= landmark.name%></h3>
+<% end %>
+</body>
